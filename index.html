@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-container-style sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="https://img.freepik.com/premium-photo/vector-stylish-treble-clef-sign-dark-musical-background-design_975403-955.jpg?size=626&ext=jpg&uid=R120222941&ga=GA1.1.1401178740.1696985696&semt=ais" class="music-logo-style"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link navbar-option-text" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-option-text" href="#best-seller-section">Best Sellers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-option-text" href="#shop-by-brand-section">Shop by Brand</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-option-text" href="#about-us-section">About Us</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide d-none d-md-block" data-ride="carousel" style="height: 60vh;">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3000">
+          <img src="https://www.bajaao.com/cdn/shop/files/desktop_bannerrocktober.jpg?v=1696107426" class="d-block w-100" style="height: 60vh;" alt="piano">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="https://www.bajaao.com/cdn/shop/files/DESKTOP_BANNER_01548df2-b261-475b-9e43-b4b15e4bbe99.jpg?v=1697549061" class="d-block w-100" style="height: 60vh;" alt="guiter">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="https://www.bajaao.com/cdn/shop/files/vault-monitor_desktop.jpg?v=1690405174" class="d-block w-100" style="height: 60vh;" alt="rock-show">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="d-block d-md-none">
+      <img src="https://www.bajaao.com/cdn/shop/files/newrelease-rec.jpg?v=1661339783" style="width: 100vh;"/>
+    </div>
+    <div>
+      <h1 class="top-catagories-main-heading">Top Catagories</h1>
+      <div class="container">
+        <div class="row">
+          <div class="top-item-container col-12 col-md-6 col-lg-3">
+            <img src="https://www.bajaao.com/cdn/shop/collections/acous-400x400_250x.jpg?v=1664881713"/>
+            <p class="top-item-name">Acoustic Guitars</p>
+          </div>
+          <div class="top-item-container col-12 col-md-6 col-lg-3">
+            <img src="https://www.bajaao.com/cdn/shop/collections/elex-400x400_250x.jpg?v=1664881668"/>
+            <p class="top-item-name">Electric Guitars</p>
+          </div>
+          <div class="top-item-container col-12 col-md-6 col-lg-3">
+            <img src="https://www.bajaao.com/cdn/shop/collections/uku-400x400_250x.jpg?v=1660663736"/>
+            <p class="top-item-name">Ukuleles</p>
+          </div>
+          <div class="top-item-container col-12 col-md-6 col-lg-3">
+            <img src="https://www.bajaao.com/cdn/shop/collections/aud-400x400_250x.jpg?v=1664882327"/>
+            <p class="top-item-name">Audio Interfaces</p>
+          </div>
+          <div class="top-item-container col-12 col-md-6 col-lg-3">
+            <img src="https://www.bajaao.com/cdn/shop/collections/mon-400x400_b507e278-bcf6-427b-81ce-50536dad7c55_250x.jpg?v=1672916835"/>
+            <p class="top-item-name">Monitor Speakers</p>
+          </div>
+          <div class="top-item-container col-12 col-md-6 col-lg-3">
+            <img src="https://www.bajaao.com/cdn/shop/collections/drums-400x400_250x.jpg?v=1660795071"/>
+            <p class="top-item-name">Electonic Drum Kits</p>
+          </div>
+          <div class="top-item-container col-12 col-md-6 col-lg-3">
+            <img src="https://www.bajaao.com/cdn/shop/collections/acdr-400x400_250x.jpg?v=1660664226"/>
+            <p class="top-item-name">Acoustic Drum Kits</p>
+          </div>
+          <div class="top-item-container col-12 col-md-6 col-lg-3">
+            <img src="https://img.freepik.com/free-photo/old-vintage-piano-keys_74190-4038.jpg?size=626&ext=jpg&uid=R120222941&ga=GA1.1.1401178740.1696985696&semt=sph" style="width: 250px; height: 250px;"/>
+            <p class="top-item-name">Harmonium</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="best-seller-section">
+      <h1 class="top-catagories-main-heading">Best Sellers</h1>
+      <div class="container">
+        <div class="row">
+          <div class="product-container col-12 col-md-6 col-lg-3  d-flex flex-column justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/files/yamaha-acoustic-guitars-pack-natural-yamaha-f280-40-inch-acoustic-guitar-with-strap-polishing-cloth-picks-e-book-32550255100083_200x.jpg?v=1687032581"/>
+            <p>Yamaha F280 40 Inch Acoustic Guitar With Strap, Polishing Cloth, Picks & E-book</p>
+            <p class="price-text">Rs. 7,499</p>
+          </div>
+          <div class="product-container col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/files/ibanez-acoustic-guitars-natural-pack-ibanez-md39c-39-inch-cutaway-acoustic-guitar-with-strap-picks-polishing-cloth-ebook-22950473400499_200x.jpg?v=1686425272"/>
+            <p>Ibanez MD39C 39 inch Cutaway Acoustic Guitar with Strap, Picks, Polishing Cloth & Ebook</p>
+            <p class="price-text">Rs. 7,249</p>
+          </div>
+          <div class="product-container col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/files/henrix-acoustic-guitars-pro-black-right-handed-henrix-38c-38-inch-cutaway-acoustic-guitar-with-dual-action-truss-rod-gigbag-picks-string-set-strap-cloth-ebook-18689590034593_200x.jpg?v=1686538668"/>
+            <p>Henrix 38C 38 Inch Cutaway Acoustic Guitar with Dual Action Truss Rod, Gigbag, Picks, String Set, Strap, Cloth & Ebook</p>
+            <p class="price-text">Rs. 2,799</p>
+          </div>
+          <div class="product-container col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/files/vault-acoustic-guitars-acoustic-natural-left-handed-vault-ea20-guitar-kit-with-learn-to-play-ebook-bag-strings-straps-picks-string-winder-polishing-cloth-40-inch-cutaway-acoustic-guit_200x.jpg?v=1686444516"/>
+            <p>Vault EA20 Guitar Kit with Learn to Play Ebook, Bag, Strings, Straps, Picks, String winder & Polishing Cloth - 40 inch Cutaway Acoustic Guitar</p>
+            <p class="price-text">Rs. 4,649</p>
+          </div>
+          <div class="product-container col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/files/behringer-audio-interfaces-single-behringer-u-phoria-um2-usb-audio-interface-32459045241011_200x.jpg?v=1687775982"/>
+            <p>Behringer U-PHORIA UM2 USB Audio Interface</p>
+            <p class="price-text">Rs. 7,050</p>
+          </div>
+          <div class="product-container col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/files/fender-electro-acoustic-guitar-bundles-sunburst-fender-sa105ce-electro-acoustic-guitar-bundle-with-gigbag-tuner-picks-strap-polishing-cloth-ebook-23304518402227_200x.jpg?v=1686112430"/>
+            <p>Fender Squier SA-105CE Electro - Acoustic Guitar Bundle with Gigbag, Tuner, Picks, Strap, Polishing Cloth & Ebook</p>
+            <p class="price-text">Rs. 13,099</p>
+          </div>
+          <div class="product-container col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/files/kala-concert-ukuleles-kala-makala-mk-c-concert-ukulele-18302967513249_200x.jpg?v=1686111888"/>
+            <p>Kala Makala MK-C Concert Ukulele</p>
+            <p class="price-text">Rs. 5,150</p>
+          </div>
+          <div class="product-container col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/files/yamaha-portable-keyboards-single-yamaha-psr-f52-61-keys-portable-keyboard-black-30473002287283_200x.jpg?v=1687046451"/>
+            <p>Yamaha PSR-F52 61 Keys Portable Keyboard - Black</p>
+            <p class="price-text">Rs. 7,590</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="shop-by-brand-section">
+      <h1 class="top-catagories-main-heading">Top Brands</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/collections/fender_250x.jpg?v=1661340542"/>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/collections/ibanez_250x.jpg?v=1661340797"/>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/collections/vault_250x.jpg?v=1661340966"/>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/collections/alesis_250x.jpg?v=1661341225"/>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/collections/yamaha_250x.jpg?v=1661341382"/>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/collections/kala_250x.jpg?v=1661341563"/>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/collections/presonus_250x.jpg?v=1661341940"/>
+          </div> 
+          <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+            <img src="https://www.bajaao.com/cdn/shop/collections/focusrite-br_250x.jpg?v=1661342002"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer-container" id="about-us-section">
+      <div class="row">
+        <div class="contact-container-other col-12 col-md-3 order-4 order-md-1">
+          <h1 class="contact-container-heading">Store Information</h1>
+          <ul class="unorder-list-style">
+            <li>15 Day Return Policy
+            </li>
+            <li>About Us</li>
+            <li>Buy with Confidence</li>
+            <li>Career Opportunities</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
+            <li>Music Solutions</li>
+            <li>Music Service Centre</li>
+            <li>Music B2B Registration</li>
+          </ul>
+        </div>
+        <div class="contact-container-other col-12 col-md-3 order-3 order-md-2">
+          <h1 class="contact-container-heading">Services - Support</h1>
+          <ul class="unorder-list-style">
+            <li>Order Lookup</li>
+            <li>View all Manufacturers</li>
+            <li>Contact Us</li>
+            <li>Frequently Asked Questions</li>
+            <li>Points & Rewards / Loyalty Program</li>
+            <li>Shopping Guarantee</li>
+            <li>Standard and Premium Warranty Plans</li>
+            <li>Shipping options and policies</li>
+            <li>Music Payment options</li>
+            <li>Open-Box Policies and T&Cs</li>
+          </ul>
+        </div>
+        <div class="contact-container d-flex flex-column justify-content-center col-12 col-md-3 order-1 order-md-3">
+          <h1 class="contact-container-heading">Call for best deals!</h1>
+          <p>+91-22-9876543</p>
+          <p>Experience MUSIC App on mobile</p>
+          <div class="d-flex justify-content-center">
+            <img src="https://cdn.shopify.com/s/files/1/0657/6821/files/Android-App-Store-logos_1_1_480x480.png?v=1677656659"/>
+            <img src="https://cdn.shopify.com/s/files/1/0657/6821/files/Android-App-Store-logos_2_1_480x480.png?v=1677656586"/>
+          </div>
+        </div>
+        <div class="contact-container d-flex flex-column justify-content-center p-3 col-12 col-md-3 order-2 order-md-4">
+          <h1  class="contact-container-heading">Secure Checkout</h1>
+          <p>We use encrypted SSL security to ensure that your credit card information is 100% protected.</p>
+          <div>
+            <img src="https://cdn.shopify.com/s/files/1/0657/6821/t/201/assets/ff-checkout-visa.png?v=139079826130638164731659698181" class="payment-image"/>
+            <img src="https://cdn.shopify.com/s/files/1/0657/6821/t/201/assets/ff-checkout-mastercard.png?v=144698862430520309971659698181" class="payment-image"/>
+            <img src="https://cdn.shopify.com/s/files/1/0657/6821/t/201/assets/ff-checkout-paypal.png?v=13422064691404247941659698181" class="payment-image"/>
+            <img src="https://cdn.shopify.com/s/files/1/0657/6821/t/201/assets/ff-checkout-discover.png?v=19870105998164435391659698181" class="payment-image"/>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
